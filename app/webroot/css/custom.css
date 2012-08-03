@@ -1,0 +1,36 @@
+body {
+  font-size:0.9em;
+}
+.footer {
+  padding:10px;
+  background:#333;
+  color:#fff;
+}
+div.title {
+  border-left: 7px solid gray;
+  border-bottom: 1px solid gray;
+  padding:5px;
+  margin-top:20px;
+  margin-bottom:5px;
+}
+dl.sidemenu dt {
+  margin-top:5px;
+}
+div.error-message {
+  color:#f00;
+}
+.green {
+  color: #8aa50c;
+}
+.blue {
+  color: #4896ac;
+}
+.gray {
+  color: gray;
+}
+.orange {
+  color: #ff8800;
+}
+.red {
+  color: #f00;
+}

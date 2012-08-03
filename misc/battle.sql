@@ -1,0 +1,20 @@
+CREATE TABLE `battle` (
+  `id` int(11) unsigned NOT NULL auto_increment,
+  `atk_master_id` int(11) unsigned,
+  `atk_camp_id` int(11) unsigned,
+  `def_master_id` int(11) unsigned,
+  `def_camp_id` int(11) unsigned,
+  `atk` int(11),
+  `def` int(11),
+  `memo` text,
+  `status` int(2) not null default 0,
+  `created` datetime,
+  `updated` datetime,
+  PRIMARY KEY  (`id`),
+  KEY `atk_master_id` (`atk_master_id`),
+  KEY `atk_camp_id` (`atk_camp_id`),
+  KEY `def_master_id` (`atk_master_id`),
+  KEY `def_camp_id` (`atk_camp_id`),
+  KEY `status` (`status`),
+  KEY `updated` (`updated`)
+) ENGINE=InnoDB AUTO_INCREMENT=100 DEFAULT CHARSET=utf8;
